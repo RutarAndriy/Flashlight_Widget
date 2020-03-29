@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="widget_name">Ліхтарик</string>
+
+    <string name="rate_button">Button</string>
+    <string name="settings_color">Колір віджету</string>
+    <string name="settings_title">Зображення віджету</string>
+
+    <string name="color_1">Червоний</string>
+    <string name="color_2">Земений</string>
+    <string name="color_3">Синій</string>
+    <string name="color_4">Жовтий</string>
+    <string name="color_5">Cyan</string>
+    <string name="color_6">Magenta</string>
+    <string name="color_7">Білий</string>
+    <string name="color_8">Напівпрозорий</string>
+    <string name="color_9">Прозорий</string>
+
+</resources>

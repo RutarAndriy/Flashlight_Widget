@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.rutar.flashlight_widget">
+
+    <application
+        android:allowBackup="true"
+
+        android:label="@string/widget_name"
+        android:theme="@android:style/Theme.Light">
+
+        <!-- Дані про віджет -->
+
+<!--        <receiver
+            android:name=".Flashlight_Widget"
+            android:label="@string/widget_name">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info">
+            </meta-data>
+        </receiver>-->
+
+        <!-- Activity для налаштування віджету -->
+
+        <activity android:name=".Flashlight_Settings"
+                  android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+<!--                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>-->
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

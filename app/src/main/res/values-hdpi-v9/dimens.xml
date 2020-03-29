@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widget_h_margin">3dp</dimen>
+    <dimen name="widget_v_margin">0dp</dimen>
+
+</resources>

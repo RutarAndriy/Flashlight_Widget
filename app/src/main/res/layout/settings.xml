@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:paddingTop="4dp"
+    tools:context="com.rutar.flashlight_widget.Flashlight_Settings"
+    android:background="#777777">
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.rutar.flashlight_widget.Color_Picker"
+        android:id="@+id/view"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:src="@drawable/rotate_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right"
+        android:layout_gravity="bottom|left"
+        android:clickable="true"
+        android:onClick="view_Press"/>
+
+    <ImageView
+        android:src="@drawable/rotate_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left"
+        android:layout_gravity="bottom|right"
+        android:clickable="true"
+        android:onClick="view_Press"/>
+
+    <ImageView
+        android:src="@drawable/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/next"
+        android:layout_gravity="top|left"
+        android:clickable="true"
+        android:onClick="view_Press"/>
+
+    <ImageView
+        android:src="@drawable/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prev"
+        android:layout_gravity="top|right"
+        android:clickable="true"
+        android:onClick="view_Press"/>
+
+</FrameLayout>

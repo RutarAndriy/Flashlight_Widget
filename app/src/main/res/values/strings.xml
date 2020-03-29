@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="widget_name">Flashlight Widget</string>
+
+    <string name="rate_button">Button</string>
+    <string name="settings_color">Колір віджету</string>
+    <string name="settings_title">Зображення віджету</string>
+
+    <string name="color_1">Red</string>
+    <string name="color_2">Green</string>
+    <string name="color_3">Blue</string>
+    <string name="color_4">Yellow</string>
+    <string name="color_5">Cyan</string>
+    <string name="color_6">Magenta</string>
+    <string name="color_7">White</string>
+    <string name="color_8">Translucent</string>
+    <string name="color_9">Transparent</string>
+
+</resources>
