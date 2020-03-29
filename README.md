@@ -1,2 +1,2 @@
-# Flashlight_Widget
+# Flashlight Widget
 My first app on Android
